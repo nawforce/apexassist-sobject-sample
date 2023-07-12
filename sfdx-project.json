@@ -1,0 +1,15 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "pushPackageDirectoriesSequentially": true,
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "51.0",
+  "namespace": "ns",
+  "plugins": {
+    "additionalNamespaces": ["unmanaged"]
+  }
+}
