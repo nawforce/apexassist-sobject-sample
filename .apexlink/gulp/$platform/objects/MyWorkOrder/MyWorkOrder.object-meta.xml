@@ -54,13 +54,13 @@
     <enableReports>false</enableReports>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Work Order</label>
+    <label>My Work Order</label>
     <nameField>
         <displayFormat>WO-{0000000}</displayFormat>
         <label>Work Order Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Work Orders</pluralLabel>
+    <pluralLabel>My Work Orders</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

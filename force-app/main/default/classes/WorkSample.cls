@@ -1,11 +1,11 @@
 public class WorkSample {
 
-    public WorkOrder createWorkOrder(String description) {
-        return new WorkOrder(Description = description);
+    public MyWorkOrder createWorkOrder(String description) {
+        return new MyWorkOrder(Description = description);
     }
 
     public String workItemDecription(DeveloperWorkItem__c workItem) {
-        return workItem.WorkOrder__r.Description;
+        return workItem.MyWorkOrder__r.Description;
     }
     
 }
